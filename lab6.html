@@ -1,0 +1,44 @@
+<!-- 6. Develop web pages with suitable HTML elements to demonstrate
+Bootstrap 5.3.0 framework classes for Grid System. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid System</title>
+    <link href="./bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 bg-primary text-white">Column 1</div>
+            <div class="col-md-4 bg-secondary text-white">Column 2</div>
+            <div class="col-md-4 bg-success text-white">Column 3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 bg-info text-white">Column 1 (sm-6, md-4)</div>
+            <div class="col-sm-6 col-md-4 bg-warning text-dark">Column 2 (sm-6, md-4)</div>
+            <div class="col-sm-12 col-md-4 bg-danger text-white">Column 3 (sm-12, md-4)</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3 bg-light text-dark">Centered Column</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 order-md-2 bg-primary text-white">Column 2 (order-md-2)</div>
+            <div class="col-md-4 bg-secondary text-white">Column 1</div>
+            <div class="col-md-4 order-md-1 bg-success text-white">Column 3 (order-md-1)</div>
+        </div>
+        <div class="row">
+            <div class="col bg-info text-white">Column (auto width)</div>
+            <div class="col bg-warning text-dark">Column (auto width)</div>
+            <div class="col-3 bg-danger text-white">Column (width: 3)</div>
+        </div>
+        <div class="row g-3">
+            <div class="col bg-primary text-white">Column with gap</div>
+            <div class="col bg-secondary text-white">Column with gap</div>
+            <div class="col bg-success text-white">Column with gap</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ge0XqeN60j/Y3YKP6mqqvSd6uBH8pr1J06t8J8gaqICmABF6ZnrMhGzawAe7v/Il6i65Wj" crossorigin="anonymous"></script>
+</body>
+</html>
